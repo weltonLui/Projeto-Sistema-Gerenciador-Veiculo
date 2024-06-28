@@ -1,0 +1,106 @@
+## Projeto de Conclusão
+
+### Sistema Gerenciador de Veículos
+
+Você foi contratado para desenvolver um sistema para uma loja de veículos. Você precisará 
+aplicar os conceitos de Programação Orientada a Objetos para criar uma interface de usuário 
+com operações de consulta e manutenção no cadastro de veículos, lojas, vendedores, clientes, 
+vendas e tipos de veículos.
+
+
+💡 **Interface com Usuário**
+
+
+Você deve criar um menu que permita ao usuário efetuar as seguintes operações:
+
+- Opção 1: Frente de Loja.
+- Opção 2: Manutenção no Cadastro.
+- Opção 3: Sair.
+
+
+💡 **Frente de Loja**
+
+
+
+A frente de loja tem o objetivo de focar nas consultas e pequenas manutenções no cadastro.
+
+As opções disponíveis são:
+
+- Opção 1: Gerenciar Veículo
+    - Opção 1a: Consultar Veículo por Placa
+    - Opção 1b: Voltar para o menu superior.
+- Opção 2: Gerenciar Loja
+    - Opção 2a: Listar todas as Lojas
+    - Opção 2b: Voltar para o menu superior.
+- Opção 3: Gerenciar Vendedor
+    - Opção 3a: Consultar Vendedor por Nome
+    - Opção 3b: Voltar para o menu superior.
+- Opção 4: Gerenciar Cliente
+    - Opção 4a: Cadastrar Cliente
+    - Opção 4b: Consultar Cliente por CPF
+    - Opção 4c: Voltar para o menu superior.
+- Opção 5: Gerenciar Venda
+    - Opção 5a: Cadastrar Venda.
+    - Opção 5b: Voltar para o menu superior.
+- Opção 6: Voltar para o menu superior.
+
+
+
+💡 **Manutenção no Cadastro**
+
+
+A manutenção no cadastro permite alterar os dados salvos no banco de dados da aplicação. As opções disponíveis são:
+
+- Opção 1: Gerenciar Veículo
+    - Opção 1a: Cadastrar veículo
+    - Opção 1b: Excluir veículo
+    - Opção 1c: Alterar dados do veículo
+    - Opção 1d: Voltar para o menu superior.
+- Opção 2: Gerenciar Loja
+    - Opção 2a: Cadastrar Loja
+    - Opção 2b: Excluir Loja
+    - Opção 2c: Alterar dados da Loja
+    - Opção 2d: Voltar para o menu superior.
+- Opção 3: Gerenciar Vendedor
+    - Opção 3a: Cadastrar Vendedor
+    - Opção 3b: Excluir Vendedor
+    - Opção 3c: Alterar dados do Vendedor
+    - Opção 3d: Voltar para o menu superior.
+- Opção 4: Gerenciar Cliente
+    - Opção 4a: Cadastrar Cliente
+    - Opção 4b: Excluir Cliente
+    - Opção 4c: Alterar dados do Cliente
+    - Opção 4d: Voltar para o menu superior.
+- Opção 5: Gerenciar Venda
+    - Opção 5a: Cadastrar Venda
+    - Opção 5b: Excluir Venda
+    - Opção 5c: Voltar para o menu superior.
+- Opção 6: Voltar para o menu superior.
+
+
+💡 **Simulação de Loja de Veículos**
+
+
+Além da interface com o usuário, você precisará criar classes para representar os `veículos`, 
+`lojas`, `vendedores`, `clientes`, `vendas` e `tipos de veículos`. Utilize os conceitos de 
+POO para criar uma estrutura modular e reutilizável.
+
+
+💡 **Observações:**
+
+> Cada veículo deve conter pelo menos os atributos **marca**, **modelo**, **ano**, **placa** e **preço**
+
+
+> Cada loja deve conter pelo menos os atributos como **`nome`**, **`endereço`** e **`telefone`** 
+
+
+> Cada vendedor deve conter, no mínimo, atributos como **nome**, **CPF** e **telefone**.
+
+
+> Cada cliente deve conter, pelo menos, atributos como **nome**, **CPF** e **telefone**.
+
+
+> Cada venda deve conter, no mínimo, atributos como **veículo vendido**, **vendedor responsável**, **cliente comprador**, **data da venda**.
+
+
+> Cada tipo de veículo deve conter, pelo menos, atributos como **categoria** e **descrição.**
